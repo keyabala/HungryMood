@@ -32,7 +32,7 @@ public class SplashScreen extends AppCompatActivity {
 
                 try {
 
-                    Thread.sleep(10000);
+                    Thread.sleep(5000);
                     Intent i = new Intent(SplashScreen.this,MainActivity.class);
                     startActivity(i);
 
