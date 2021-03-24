@@ -39,7 +39,7 @@ public class SplashScreen extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-//                sleep(5000);
+
 
             }
         });
