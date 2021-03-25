@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpActivity">
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,57 +22,24 @@
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="15dp"
             android:orientation="vertical">
-
-            <de.hdodenhof.circleimageview.CircleImageView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/profile_image"
+            <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:src="@drawable/man"
-                app:civ_border_color="#e8a564"
-                app:civ_border_width="2dp" />
+                android:layout_height="153dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/flogo" />
 
             <TextView
-                android:id="@+id/idUpImage"
+                android:id="@+id/cafehouse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="cursive"
                 android:gravity="center"
-                android:text="Upload Image"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <View
-                android:id="@+id/view"
-                android:layout_width="100dp"
-                android:layout_height="2dp"
-                android:layout_gravity="center"
-                android:background="@color/black" />
-
-            <EditText
-                android:id="@+id/idPersonName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="23dp"
-                android:background="@drawable/backeditview"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="User Name"
-                android:inputType="textPersonName"
-                android:padding="10dp" />
-
-            <EditText
-                android:id="@+id/idPhone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="23dp"
-                android:background="@drawable/backeditview"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="+088"
-                android:inputType="phone"
-                android:padding="10dp" />
+                android:text="Cafe House"
+                android:background="@color/tintlogocolor"
+                android:textColor="#F8F5F0"
+                android:textSize="60sp" />
 
             <EditText
                 android:id="@+id/idEmail"
@@ -105,7 +74,7 @@
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/backeditview"
                 android:backgroundTint="@color/endcolorgradient"
-                android:text="Register"
+                android:text="Sign In"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -179,7 +148,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Already have an account? Login"
+                android:text="Want to create account?"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
@@ -188,4 +157,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</ScrollView>
+</LinearLayout>

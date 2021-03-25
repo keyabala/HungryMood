@@ -23,4 +23,6 @@
     <color name="endcolorgradient">#e8a564</color>
     <color name="tintlogocolor">#AC7A4A</color>
     <color name="goooglecolor">#C3463B</color>
+    <color name="fbcolor">#3b5998</color>
+    <color name="gbcolor">#db4a39</color>
 </resources>
