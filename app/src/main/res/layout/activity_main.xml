@@ -39,7 +39,7 @@
             android:layout_marginBottom="30dp"
             android:fontFamily="cursive"
             android:gravity="center"
-            android:text="Cafe House"
+            android:text="Green Cafe"
             android:textColor="#F8F5F0"
             android:textSize="60sp" />
 

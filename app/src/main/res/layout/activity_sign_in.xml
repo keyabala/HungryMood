@@ -7,6 +7,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".SignInActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,7 +39,7 @@
                 android:layout_marginBottom="30dp"
                 android:fontFamily="cursive"
                 android:gravity="center"
-                android:text="Cafe House"
+                android:text="Green Cafe"
                 android:background="@color/tintlogocolor"
                 android:textColor="#F8F5F0"
                 android:textSize="60sp" />
@@ -156,5 +159,6 @@
                 android:gravity="center"/>
         </LinearLayout>
     </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
